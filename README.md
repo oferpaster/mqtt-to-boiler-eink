@@ -91,7 +91,7 @@ MQTT_PASS = mqttPassword!
 ## 🏠 Home Assistant Automation
 
 ```yaml
-alias: Publish Boiler Temp Int to MQTT
+alias: Publish Boiler Temp to MQTT
 trigger:
   - platform: state
     entity_id: sensor.boiler_temperature
